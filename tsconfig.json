@@ -1,9 +1,9 @@
 {
 	"compilerOptions": {
 		"module": "Node16",
-		"target": "ES2022",
+		"target": "esnext",
 		"lib": [
-			"ES2022"
+			"ESNext"
 		],
 		"sourceMap": true,
 		"rootDir": "src",
