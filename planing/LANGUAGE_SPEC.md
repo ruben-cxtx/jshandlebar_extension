@@ -9,8 +9,9 @@
 |if(a > b) { ... } | {{#greaterThan a b}} ... {{/greaterThan}} | comparison | 
 |if(a < b) { ... }| {{#lessThan a b}} ... {{/lessThan}} | comparison | 
 |if(a && b) { ... }| {{#and a b}} ... {{/and}} | logical AND |
-|if(a || b ) { ... } | {{#or a b}} ... {{/or}} | logical OR | 
+|if(a OR b ) { ... } | {{#or a b}} ... {{/or}} | logical OR | 
 |collection.forEach(item => { ... }) | {{#each collection}} ... (this) ... {{/each}} | iteration |
 | name ?? "Customer" | {{insert name "default=Customer"}} | default values|
 | formatDate(field, "MM/DD/YYYY") | {{formatDate field "MM/DD/YYYY"}} | Date formatting | 
-|collection.length | (length collection) | length sub-expression
+|collection.length | (length collection) | length sub-expression |
+
